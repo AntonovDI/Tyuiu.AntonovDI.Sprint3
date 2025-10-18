@@ -7,13 +7,14 @@ namespace Tyuiu.AntonovDI.Sprint3.Task1.V18.Lib
         public double GetSumSeries(int startValue, int stopValue)
         {
             double sum = 0;
-            int i = 1;
-            while (i < stopValue)
+            while (startValue < stopValue + 1)
             {
-                sum += (Math.Sin(i) + Math.Pow(0.25, 2));
-                i+=1;
+                sum += (Math.Sin(startValue));
+                startValue += 1;
             }
+            sum *= Math.Pow(0.25, 2);
             return Math.Round(sum, 3);
         }
+        
     }
 }

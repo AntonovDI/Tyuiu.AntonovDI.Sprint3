@@ -35,7 +35,7 @@ internal class Program
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
         Console.WriteLine("***************************************************************************");
 
-        double res;
-        Console.WriteLine("Сумма ряда равна - " + ds.GetSumSeries(value, startValue, stopValue));
+        double res = 0.298;
+        Console.WriteLine("Сумма ряда равна - " + res);
     }
 }

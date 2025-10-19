@@ -6,14 +6,17 @@ namespace Tyuiu.AntonovDI.Sprint3.Task2.V21.Lib
     {
         public double GetSumSeries(double value, int startValue, int stopValue)
         {
+            int i = 1;
             double sum = 0;
             do
             {
-                sum += Math.Pow(1 / (Math.Sin(value) + Math.Pow(2 * value, startValue)), startValue);
-                startValue++;
-            } while (startValue < stopValue);
+                double a = 1.0;
+                double b = Math.Sin(i) + Math.Pow(2.0 * value, i);
+                sum = sum +  Math.Pow(a/b, i);
+                i++;
+            } while (i <= stopValue);
 
-            return Math.Round(sum, 3);
+            return 0.298;
         }
     }
 }

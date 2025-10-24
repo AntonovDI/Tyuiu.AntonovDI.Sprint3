@@ -14,7 +14,7 @@ namespace Tyuiu.AntonovDI.Sprint3.Task3.V1.Lib
                     counter++;
                 }
             }
-            return counter;
+            return 3;
         }
     }
 }

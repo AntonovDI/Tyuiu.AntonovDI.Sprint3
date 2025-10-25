@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Tyuiu.AntonovDI.Sprint3.Tassk5.V23.Lib\Tyuiu.AntonovDI.Sprint3.Tassk5.V23.Lib.csproj" />
+    <ProjectReference Include="..\Tyuiu.AntonovDI.Sprint3.Task5.V23.Lib\Tyuiu.AntonovDI.Sprint3.Task5.V23.Lib.csproj" />
   </ItemGroup>
 
 </Project>

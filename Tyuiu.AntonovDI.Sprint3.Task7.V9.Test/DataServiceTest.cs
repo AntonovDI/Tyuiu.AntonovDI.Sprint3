@@ -17,17 +17,17 @@ namespace Tyuiu.AntonovDI.Sprint3.Task7.V9.Test
             double[] valueWaitArray;
             valueWaitArray = new double[len];
 
-            valueWaitArray[0] = 0.75;
-            valueWaitArray[1] = 0.75;
-            valueWaitArray[2] = 0.75;
-            valueWaitArray[3] = 0.75;
-            valueWaitArray[4] = 0.75;
-            valueWaitArray[5] = 0.75;
-            valueWaitArray[6] = 0.75;
-            valueWaitArray[7] = 0.75;
-            valueWaitArray[8] = 0.75;
-            valueWaitArray[9] = 0.75;
-            valueWaitArray[10] = 0.75;
+            valueWaitArray[0] = -27.22;
+            valueWaitArray[1] = -22.25;
+            valueWaitArray[2] = -16.66;
+            valueWaitArray[3] = -11.04;
+            valueWaitArray[4] = -6.13;
+            valueWaitArray[5] = -3.0;
+            valueWaitArray[6] = 4.84;
+            valueWaitArray[7] = 8.86;
+            valueWaitArray[8] = 14.43;
+            valueWaitArray[9] = 20.18;
+            valueWaitArray[10] = 25.24;
 
             double[] res;
             res = new double[len];
